@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <button class="theme-toggle" onclick="alternarTema()">🌓</button>
+        <h2>Minhas Tarefas</h2>
+
+        <input type="text" id="novaTarefa" placeholder="Digite uma nova tarefa">
+        <button onclick="adicionarTarefa()">Adicionar</button>
+
+        <ul id="listaTarefas"></ul>
+
+        <button class="logout" onclick="logout()">Sair</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
